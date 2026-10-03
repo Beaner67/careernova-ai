@@ -84,3 +84,9 @@ Random seeds are fixed (`SEED = 42`), so results are reproducible.
 - The features describe **occupations, not students**. Recommending careers to a student needs student-profile data, or a way to match a student's skills against these occupation profiles.
 - Only counts and averages of skills are used. Using the skill and technology names themselves (e.g. "has Python", "has Excel") is the most promising way to improve accuracy, and it would also support skill-gap analysis.
 - The web app (`careernova-web/`) covers matching, explanations, skill-gap analysis and course search links. It is a static React app, not the Flask app the slides describe.
+
+## License
+
+The code is released under the [MIT License](LICENSE).
+
+The occupation data (`Career_Nova_Final_Clean_Optimized_Dataset.csv` and the files in `careernova-web/public/data/`) is derived from O\*NET by the U.S. Department of Labor, Employment and Training Administration, used under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. It has been modified (for example, recounted skill lists and shorter tool names); the Department of Labor has not approved, endorsed or tested these changes.
