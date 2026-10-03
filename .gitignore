@@ -1,0 +1,18 @@
+# Dependencies and builds
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Presentation slides: kept out of the public repo (title slide shows a registration number)
+*.pptx
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
